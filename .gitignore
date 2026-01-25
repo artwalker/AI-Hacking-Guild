@@ -1,0 +1,64 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Backup & Cloud Sync
+.BaiduSyncdisk/
+*.sync
+*.tmp
+
+# Project Drafts & Temp
+/drafts/
+!.agent/
+!book/
+
+# Log Files
+*.log
+npm-debug.log*
+
+# Workspace
+.gemini/
+.agent/
+node_modules/
+
+# Claude Configuration
+.claude/
+
+# Source Materials (Knowledge Base - Copyright Risk)
+source_materials/
+
+# Internal Materials
+materials/
+
+# Promotion Copy
+copy/
+
+# Audit Reports
+audits/
+
+# Tools and Scripts
+scripts/
+
+# Unpublished Manuscripts
+manuscripts/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Outlines (Unpublished)
+outlines/
+
+# Git Backup
+.git.backup*/
+
+# Temp Scripts
+rewrite_history.sh
+
+# References (if internal)
+references/
+
+# Internal Planning Docs
+CURRENT_PLAN.md
+EDITOR_AGENT.md
